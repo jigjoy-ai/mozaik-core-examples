@@ -1,6 +1,15 @@
-# Mozaik Examples
+# Mozaik Core Examples
 
 Small, self-contained TypeScript projects that show how to build agents with [`@mozaik-ai/core`](https://www.npmjs.com/package/@mozaik-ai/core).
+
+> [!NOTE]
+> `@mozaik-ai/core` is finished: **6.0.0 is its final version**, with the runtime and the agent together, and these examples are pinned to it. Version 5.x is deprecated.
+>
+> New development happens in the `@jigjoy` packages, which are still early and not yet stable:
+>
+> - [`@jigjoy/mozaik-agent`](https://github.com/jigjoy-ai/mozaik-agent) — the agent.
+> - [`@jigjoy/mozaik-network`](https://github.com/jigjoy-ai/mozaik-network) — a network where agents and people's sessions talk to each other as peers.
+> - [`@jigjoy/mozaik-rule-engine`](https://github.com/jigjoy-ai/mozaik-rule-engine) — the rules a peer reacts by.
 
 - `terminal-agent/` — An agent that runs shell commands and uses the output to inspect and change a local directory.
 - `inference-interception/` — A streaming planner whose loop is intercepted when a risky plan appears, then asked for a safer one.
